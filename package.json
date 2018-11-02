@@ -9,6 +9,10 @@
   "bin": "./bin/index.js",
   "author": "yuanjunliang",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanjunliang/node-server-creater.git"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "mongoose": "^5.3.7",
