@@ -11,7 +11,7 @@ program.version('1.0.0', '-v, --version')
        .command('init <name>')
        .action((name) => {
           spinner.start()
-          download('direct:https://github.com/yuanjunliang/node-server-creater.git', 'test/tmp', {clone: true}, (err) => {
+          download('direct:https://github.com/yuanjunliang/create-nodejs-server.git', 'test/tmp', {clone: true}, (err) => {
               if(err){
                 spinner.fail('create fibos dapp failed')
               }else{
